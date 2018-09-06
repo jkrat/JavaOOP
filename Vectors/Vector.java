@@ -4,7 +4,7 @@ public class Vector {
     public Vector (int xParam) {
         this.x = xParam;
     }
-    public Vector add(Vector vec) {
+    public Vector add(Vector vec) { 
         return new Vector (this.x + vec.x);
     };
     public Vector subtract(Vector vec) {
