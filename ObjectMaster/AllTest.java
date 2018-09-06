@@ -1,31 +1,31 @@
 public class AllTest {
 
 	public static void main(String[] args) {
-//		Human john = new Human();
-//		Wizard trevor = new Wizard();
-//		System.out.println(john.getHealth());
-//		trevor.fireball(john);
-//		System.out.println(john.getHealth());
-//		trevor.heal(john);
-//		System.out.println(john.getHealth());
+		// Human jim = new Human();
+		// Wizard tim = new Wizard();
+		// System.out.println(jim.getHealth());
+		// tim.fireball(jim);
+		// System.out.println(jim.getHealth());
+		// tim.heal(jim);
+		// System.out.println(jim.getHealth());
 		
-//		Human broh = new Human();
-//		Ninja naruto = new Ninja();
-//		naruto.steal(broh);
-//		naruto.steal(broh);
-//		naruto.runAway();
-//		System.out.println(naruto.getHealth());
-//		System.out.println(broh.getHealth());
+		// Human jimmy = new Human();
+		// Ninja timmy = new Ninja();
+		// timmy.steal(jimmy);
+		// timmy.steal(jimmy);
+		// timmy.runAway();
+		// System.out.println(timmy.getHealth());
+		// System.out.println(jimmy.getHealth());
 		
-		Human butch = new Human();
-		Samurai fred = new Samurai();
-		Samurai kris = new Samurai();
-		Samurai kenny = new Samurai();
-		fred.deathBlow(butch);
-		fred.meditate();
-		System.out.println(butch.getHealth());
-		System.out.println(fred.getHealth());
-		System.out.println("There are this many samurai: " + Samurai.howMany());
+		Human a = new Human();
+		Samuri b = new Samuri();
+		Samuri c = new Samuri();
+		Samuri d = new Samuri();
+		b.deathBlow(a);
+		b.meditate();
+		System.out.println(a.getHealth());
+		System.out.println(b.getHealth());
+		System.out.println("There are this many samuri: " + Samuri.howMany());
 	}
 
 }

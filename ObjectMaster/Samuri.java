@@ -1,18 +1,18 @@
-public class Samurai extends Human {
-	private static int totalSamurai = 0;
+public class Samuri extends Human {
+	private static int totalSamuri = 0;
 	
-	public Samurai() {
+	public Samuri() {
 		setHealth(200);
-		totalSamurai++;
+		totalSamuri++;
 	}
-	public void deathBlow(Human h) {
-		h.setHealth(0);
+	public void deathBlow(Human name) {
+		name.setHealth(0);
 		setHealth(getHealth()/2);
 	}
 	public void meditate() {
 		setHealth(getHealth() + getHealth()/2);
 	}
 	public static int howMany() {
-		return totalSamurai;
+		return totalSamuri;
 	}
 }
